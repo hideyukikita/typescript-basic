@@ -6,7 +6,7 @@ type Post = {
 };
 
 // 編集中の投稿データの型
-type EmittingPost = Partial<Post>;
+type EditingPost = Partial<Post>;
 
 // 一覧表示用データの型
 type SummaryPost = Pick<Post, 'id' | 'title'>;
